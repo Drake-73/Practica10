@@ -1,0 +1,30 @@
+services:
+  nginx-proxy:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./cache:/var/cache/nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - api-service
+    networks:
+      - red_interna
+
+  api-service:
+    build: .
+    expose:
+      - "8080"
+    depends_on:
+      - redis-server
+    networks:
+      - red_interna
+
+  redis-server:
+    image: redis:alpine
+    networks:
+      - red_interna
+
+networks:
+  red_interna:
+    driver: bridge

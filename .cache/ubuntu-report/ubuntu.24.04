@@ -1,0 +1,68 @@
+{
+  "Version": "24.04",
+  "OEM": {
+    "Vendor": "QEMU",
+    "Product": "Standard PC (Q35 + ICH9, 2009)",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "SeaBIOS",
+    "Version": "1.16.3-debian-1.16.3-2"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "1af4",
+      "Model": "1050"
+    }
+  ],
+  "RAM": 8.1,
+  "Disks": [
+    42.9
+  ],
+  "Partitions": [
+    41
+  ],
+  "Screens": [
+    {
+      "Size": "320mmx200mm",
+      "Resolution": "1280x800",
+      "Frequency": "74.93"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "es_ES",
+  "Timezone": "Europe/Madrid",
+  "Install": {
+    "Type": "Flutter",
+    "OEM": false,
+    "Media": "Ubuntu 24.04.3 LTS",
+    "Stages": {
+      "1": "locale",
+      "4": "accessibility",
+      "5": "keyboard",
+      "6": "network",
+      "7": "autoinstall",
+      "12": "sourceSelection",
+      "19": "codecsAndDrivers",
+      "30": "storage",
+      "36": "identity",
+      "54": "timezone",
+      "57": "confirm",
+      "59": "install",
+      "571": "done"
+    },
+    "Language": "es",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "PartitionMethod": "use_device",
+    "UseActiveDirectory": false
+  }
+}

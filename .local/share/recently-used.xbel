@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/asir/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202026-02-05%2021-44-50.png" added="2026-02-05T20:44:50.522464Z" modified="2026-02-05T20:44:50.522468Z" visited="2026-02-05T20:44:50.522465Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2026-02-05T20:44:50.522465Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/asir/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202026-02-05%2021-45-01.png" added="2026-02-05T20:45:01.275838Z" modified="2026-02-05T20:45:01.275841Z" visited="2026-02-05T20:45:01.275839Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2026-02-05T20:45:01.275839Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
