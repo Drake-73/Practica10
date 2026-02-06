@@ -1,4 +1,3 @@
-cat <<EOF > README.md
 # Práctica 10: Infraestructura de Microservicios Segura con Docker y Caché Multinivel
 **Alumno:** Amado  
 **Asignatura:** Seguridad y Alta Disponibilidad
@@ -26,4 +25,4 @@ curl -I http://localhost
 \`\`\`
 * **MISS**: Primera petición o caché expirada (60s).
 * **HIT**: Petición servida desde la caché de Nginx o Redis.
-EOF
+
